@@ -1,7 +1,8 @@
-export function Tittle(){
-    return(
-        <div className="header">
-            <h1 className="text-5xl text-center text-red-400 mt-12 mb-12">Todo App</h1>
-        </div>
-    )
+export function Tittle() {
+    return (
+      <div className="header py-6">
+        <h1 className="text-5xl text-center text-white ml-16 font-bold">Todo App</h1>
+      </div>
+    );
 }
+  
