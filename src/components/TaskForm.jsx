@@ -24,11 +24,11 @@ export function TaskForm({ onAddTask }) {
             name="name"
             value={list}
             onChange={changeHandle}
-            placeholder="Enter task"
-            className="w-full px-4 py-2 mb-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            placeholder="Enter Your Task"
+            className="w-64 px-4 py-2 mb-2 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500"
           />
         </div>
-        <div className="ml-10  flex items-center">
+        <div className="ml-6  mr-4 flex items-center ">
           <Button
              onClick={addTask}
              color={"blue"}

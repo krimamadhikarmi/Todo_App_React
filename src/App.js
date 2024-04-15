@@ -5,7 +5,7 @@ import { Tittle } from './components/Tittle';
 
 function App() {
   return(
-    <div className="bg-gray-500 min-h-screen">
+    <div className="bg-gray-600 min-h-screen">
      <Tittle/>
       <Tasks/>
     </div>
