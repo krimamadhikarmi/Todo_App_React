@@ -30,12 +30,12 @@ export function TaskForm({ onAddTask }) {
         </div>
         <div className="ml-10  flex items-center">
           <Button
-            onClick={addTask}
-            color="blue"
-            className="px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 focus:outline-none rounded-md"
+             onClick={addTask}
+             color={"blue"}
           >
             Save
           </Button>
+            
         </div>
       </div>
     </div>
